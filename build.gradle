@@ -119,7 +119,7 @@ configure(webModule) {
     dependencies {
         compileOnly(servletApi)
         compile(globalModule)
-        compile("com.flowingcode.addons.carousel:carousel-addon:2.1.0")
+        compile("com.flowingcode.addons.carousel:carousel-addon:2.1.0") //เรียกใช้ Carousel ของ Vaadin
     }
 
     jar {
